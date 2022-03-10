@@ -36,6 +36,12 @@
       "type": "RPG",
       "userId": 3,
       "id": 3
+    },
+    {
+      "name": "God of War 2",
+      "type": "RPG",
+      "userId": 3,
+      "id": 4
     }
   ],
   "plataform": [
