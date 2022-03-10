@@ -1,6 +1,6 @@
 {
-  "scripts": {
-    "start": "json-server db.json --routes routes.json"
+  "scripts":{
+    "start": "echo top"
   },
   "dependencies": {
     "cors": "^2.8.5",
