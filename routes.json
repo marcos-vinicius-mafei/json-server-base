@@ -1,3 +1,6 @@
 {
-  "users": 600
+  "users": 600,
+  "games": 644,
+  "plataform": 640,
+  "/games/user/:userId":"/games?userId=:userId"
 }

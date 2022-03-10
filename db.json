@@ -6,6 +6,54 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "josecrispim@gmail.com",
+      "password": "$2a$10$zFaVPWd/3Bm9dtwNTCPez.2ECwQSHxUYTmcHUfXnht3GUqUIvU8nK",
+      "id": 2
+    },
+    {
+      "email": "irineu@gmail.com",
+      "password": "$2a$10$CcHI8xFN4NIINqaXo.wUpeexifa5BgnVQPZof8Z5lHvvwMmWbvfCi",
+      "id": 3
+    }
+  ],
+  "games": [
+    {
+      "name": "Alien Isolation",
+      "type": "Terror",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "name": "Elden Ring",
+      "type": "RPG",
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "name": "God of War",
+      "type": "RPG",
+      "userId": 3,
+      "id": 3
+    }
+  ],
+  "plataform": [
+    {
+      "plataform": [
+        "ps4",
+        "PC"
+      ],
+      "userId": 3,
+      "id": 1
+    },
+    {
+      "plataform": [
+        "xbox",
+        "PC"
+      ],
+      "userId": 2,
+      "id": 2
     }
   ]
 }
