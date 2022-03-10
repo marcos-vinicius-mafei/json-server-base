@@ -1,1 +1,1 @@
-web: npm i -g json-server && npm start
+web: npm install -g json-server && npm start
