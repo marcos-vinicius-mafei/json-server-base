@@ -9,14 +9,14 @@ const router = jsonServer.router("db.json");
 app.db = router.db;
 
 const rules = auth.rewriter({
-  users: 600,
+  users: 644,
   games:644,
   plataform:640,
 });
 
 app.use(cors());
 app.use(jsonServer.rewriter({
-  '/games/user/:userId':'/games?userId=:userId&_expand=user'
+  '/users/:userId/games' : '/users/:userId?_embed=games'
 }));
 app.use(rules);
 app.use(auth);
