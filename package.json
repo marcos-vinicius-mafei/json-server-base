@@ -1,6 +1,6 @@
 {
-  "scripts":{
-    "start": "json-server db.json --routes routes.json -c json-server.js"
+  "scripts": {
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
