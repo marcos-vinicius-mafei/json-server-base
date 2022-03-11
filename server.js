@@ -16,7 +16,8 @@ const rules = auth.rewriter({
 
 app.use(cors());
 app.use(jsonServer.rewriter({
-  '/users/:userId/games' : '/users/:userId?_embed=games'
+  '/users/:userId/full' : '/users/:userId?_embed=games',
+  '/user/:userId/games' : '/games?userId=:userId'
 }));
 app.use(rules);
 app.use(auth);
