@@ -8,9 +8,11 @@ Assim como a documentação do JSON-Server-Auth traz (https://www.npmjs.com/pack
 
 ### Cadastro
 
-POST /register <br/>
-POST /signup <br/>
-POST /users
+|Método|endpoint|
+|-|-|
+|POST |/register|
+|POST |/signup|
+|POST |/users|
 
 Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
 Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
