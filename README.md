@@ -342,7 +342,7 @@ Rotas que necessitam de autorização deve ser informado no cabeçalho da requis
 }
 ```
 
-**\*Atenção**: no campo userId, é necessário utilizar o Id do usuário que está cadastrando o plataforma.\*
+**\*Atenção**: no campo userId, é necessário utilizar o Id do usuário que está cadastrando a plataforma.\*
 
 `FORMATO DA RESPOSTA - STATUS 201`
 
